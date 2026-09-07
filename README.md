@@ -4,6 +4,14 @@
 
 파일을 서버로 전송하지 않고 컴퓨터 안에서 분석합니다. 완전히 같은 파일뿐 아니라 포맷·해상도·압축률이 달라진 유사 파일도 후보로 표시합니다.
 
+## 다운로드
+
+**[Windows 실행용 ZIP 다운로드 · v0.1.0](https://github.com/Jangwanko/SameImageSearch/releases/download/v0.1.0/SameImage-0.1.0-windows-x64.zip)**
+
+Python 설치 없이 사용할 수 있습니다. ZIP을 전부 압축 해제한 뒤 `SameImage/SameImage.exe`를 실행하세요. `_internal` 폴더도 함께 유지해야 합니다.
+
+[릴리스 안내와 체크섬](https://github.com/Jangwanko/SameImageSearch/releases/latest) · Windows 64비트 · 약 77MB
+
 ## 주요 기능
 
 - **완전 중복 검색:** SHA-256 해시로 파일 내용을 비교합니다.
@@ -35,7 +43,7 @@ python -m venv .venv
 
 ### ZIP 배포본으로 실행
 
-이 저장소에는 **소스와 빌드 설정**이 들어 있습니다. `dist/`, `release/`, 배포 ZIP은 Git에 포함되지 않으며, 저장소의 **Code → Download ZIP은 실행 파일 배포본이 아닙니다.** 실행용 ZIP을 전달받거나 아래 빌드 방법으로 생성하세요.
+실행용 ZIP은 위의 **다운로드 링크** 또는 [GitHub Releases](https://github.com/Jangwanko/SameImageSearch/releases)에서 받습니다. 저장소의 **Code → Download ZIP**과 릴리스의 **Source code (zip)**은 소스 코드이므로 실행하려면 빌드가 필요합니다. 배포 ZIP은 소스 Git 이력 대신 릴리스 첨부 파일로 제공합니다.
 
 1. `SameImage-0.1.0-windows-x64.zip`을 **전체 압축 해제**합니다.
 2. `SameImage` 폴더 안의 **`SameImage.exe`**를 실행합니다.
